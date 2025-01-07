@@ -1,0 +1,47 @@
+h1 {
+    font-family: "helvetica", sans-serif;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+li {
+    padding: 1em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(214, 214, 214);
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: .25em;
+    transition: all, .5s;
+    
+}
+
+a:hover {
+    background-color:rgb(28, 113, 135);
+    color: white;
+    transition: all, .5s;
+}
+
+.unordered {
+    /* border: 1px solid black; */
+    border-radius: .5em;
+    background-color: rgba(28, 114, 135, 0.28)
+}
+
+.unordered > li {
+    color: black;
+}
+
+.ordered {
+    border-radius: .5em;
+    background-color: rgba(28, 114, 135, 0.28)
+}
+
+.ordered > li {
+    color: black;
+}
