@@ -1,3 +1,7 @@
+body {
+    padding: 20px;
+}
+
 h1 {
     font-family: "helvetica", sans-serif;
     font-weight: 800;
@@ -28,8 +32,8 @@ a:hover {
 }
 
 .unordered {
-    /* border: 1px solid black; */
     border-radius: .5em;
+    padding: 20px 50px;
     background-color: rgba(28, 114, 135, 0.28)
 }
 
@@ -39,9 +43,34 @@ a:hover {
 
 .ordered {
     border-radius: .5em;
+    padding: 20px 50px;
     background-color: rgba(28, 114, 135, 0.28)
 }
 
 .ordered > li {
     color: black;
+}
+
+
+.frontpage {
+    display: block;
+    width: 215px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid;
+    padding: 20px 50px;
+    border-radius: 2rem;
+    box-shadow: 5px 5px black 
+
+
+}
+
+.ingredients {
+    display: inline-block;
+    vertical-align: top;
+}
+.instructions {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
 }
